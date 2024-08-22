@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+
+<BODY>
+    <H1>Muhammad Yahya</H1>
+    <h2>Muhammad Yahya</h2>
+    <h3>Muhammad Yahya</h3>
+    <h4>Muhammad Yahya</h4>
+    <h5>Muhammad Yahya</h5>
+    <h6>Muhammad Yahya</h6>
+    <p>My name is Muhammad Yahya</p>
+    <hr>
+    <blockquote>There are 8 planets in the Solar System,there used to be 9 planets including Pluto; but in 2006 it was classified as a dwarf planet.Because it didn't meet the third criteria to be a planet.
+    </blockquote>
+    <hr>
+    <h2>Formatting styles</h2><br>
+    <b>Muhammad Yahya</b><br>
+    <stong>Muhammad Yahya</stong><br>
+    <i>Muhammad Yahya</i><br>
+    <em>Muhammad Yahya</em><br>
+    <mark>Muhammad Yahya</mark><br>
+    <small>Muhammad Yahya</small><br>
+    <del>10,000</del>This is available for 8,999.
+    <br>
+    H<sub>2</sub>O<br>
+    I am in 6<sup>th</sup> grade
+
+</BODY>
+
+</html>
