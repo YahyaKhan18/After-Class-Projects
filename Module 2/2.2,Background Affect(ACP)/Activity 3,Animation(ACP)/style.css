@@ -1,0 +1,55 @@
+@keyframes Yahya{
+    0% {
+        background-color: red;
+    }
+
+    10% {
+        background: color(orange);
+    }
+
+    10% {
+        background: color(yellow);
+    }
+
+    20% {
+        background: color(lightgreen);
+    }
+
+    30% {
+        background: color(green);
+    }
+
+    40% {
+        background: color(lightblue);
+    }
+
+    50% {
+        background: color(pink);
+    }
+
+    60% {
+        background: color(purple);
+    }
+
+    70% {
+        background: color(brown);
+    }
+
+    80% {
+        background: color(white);
+    }
+
+    90% {
+        background: color(grey);
+    }
+
+    100% {
+        background: color(black);
+    }
+}
+
+body {
+    height: 500px;
+    animation-name: Yahya;
+    animation-duration: 10s;
+}
