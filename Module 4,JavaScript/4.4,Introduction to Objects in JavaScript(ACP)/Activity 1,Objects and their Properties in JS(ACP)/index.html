@@ -6,16 +6,15 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>Multiplication</h1>
-    <button onclick="myFunction(5)">Click me</button>
+    <p id="result"></p>
 
     <script>
-        function myFunction(x,y){
-            if (y===undefined){
-                y=4
-            }
-            document.write(x * y)
-        }
+        var person = {
+            firstName: Yahya,
+            age: 11,
+        };
+
+        document.getElementById("result").innerHTML = person.firstName + "is" + person.age + "years old";
     </script>
 </body>
 </html>
