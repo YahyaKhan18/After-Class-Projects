@@ -6,27 +6,51 @@ class Animal(ABC):
 
 class Human(Animal):
     print("I can walk and run")
-    input("What am I? ")
+    print("1.Cat")
+    print("2.Human")
+    answer = input("What am I? ")
 
-    def __init__(self,ans):
-        self.ans = ans
-        ans = Human
-
-        if (self.ans == Human):
-            print("You are correct")
+    if answer == "1":
+        print("You are wrong!")
+    else:
+        print("You are right!")
 
 
 class Snake(Animal):
     print("I can crawl")
-    input("What am I?")
+    print("1.Snake")
+    print("2.Capybara")
+    answer = input("What am I? ")
+
+    if answer == "2":
+        print("You are wrong!")
+    else:
+        print("You are right!")
+
 
 class Dog(Animal):
     print("I can bark")
-    input("What am I?")
+    print("1.Elephant")
+    print("2.Dog")
+    answer = input("What am I? ")
+
+    if answer == "1":
+        print("You are wrong!")
+    else:
+        print("You are right!")
+
 
 class Lion(Animal):
     print("I can roar")
-    input("What am I?")
+    print("1.Lion")
+    print("2.Monkey")
+    answer = input("What am I? ")
+
+    if answer == "2":
+        print("You are wrong!")
+    else:
+        print("You are right!")
+
 
 
 A = Human()
